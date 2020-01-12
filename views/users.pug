@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Список пользователей</title>
+<meta charset="utf-8" />
+</head>
+<body>
+<table>
+<a href="/users/create">Добавить пользователя</a>
+<tr><th>Имя</th><th>Возраст</th></tr>
+each user in users
+    <tr><td>#{user.name}</td><td>#{user.age}</td></tr>
+</table>
+</body>
